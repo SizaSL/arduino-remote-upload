@@ -1,0 +1,5 @@
+REM Kill any python process running before *** This needs to be specific
+kill $(pgrep python)
+
+REM Run USB to TCP server on Linux
+~/rfc2217_server.py /dev/ttyUSB0
